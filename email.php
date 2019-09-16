@@ -64,9 +64,9 @@ $mail = new PHPMailer(true);                              // Passing `true` enab
     if($enviar){
         header("Location: https://infraengenharia.herokuapp.com/obrigado.html");
         exit;
-        echo 'foi';
+        // echo 'foi';
     }else{     
-        echo 'Mailer Error: ' . $mail->ErrorInfo;
+        // echo 'Mailer Error: ' . $mail->ErrorInfo;
         header("Location: https://infraengenharia.herokuapp.com/erro.html");
         exit;
     }
