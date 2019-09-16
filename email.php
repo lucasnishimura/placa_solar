@@ -5,7 +5,7 @@
 $nome = $_POST['nome'];
 $email= $_POST['email'];
 $mensagem= $_POST['mensagem'];
-$to = "lucas.nishi@hotmail.com";
+$to = "infra@infraengenharia.com.br";
 $assunto = 'Email do site: '.utf8_decode($_POST['assunto']);
 
 
