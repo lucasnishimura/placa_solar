@@ -235,10 +235,6 @@ body {
     font-weight: 600;
 }
 
-.text-sobre{
-    width: 546px;
-}
-
 
 /*--------------------------------------------------
 [6. Start Video]
@@ -881,6 +877,18 @@ body {
     .slider .content .left .btn-2 {
         margin-left: 0;
     }
+    
+    .img_carrossel{
+        display: initial !important;
+    }
+
+    .graphImg{
+        width: 450px;
+    }
+
+    .grafico{
+        margin-right: -11px;
+    }
 }
 
 
@@ -963,6 +971,19 @@ body {
     .contact .content {
         margin-bottom: 40px;
     }
+
+    .img_carrossel{
+        display: initial !important;
+    }
+
+    .graphImg{
+        width: 450px;
+    }
+
+    .grafico{
+        margin-right: -11px;
+    }
+
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -1050,6 +1071,17 @@ body {
         margin-bottom: 40px;
     }
 
+    .img_carrossel{
+        display: initial !important;
+    }
+
+    .graphImg{
+        width: 450px;
+    }
+
+    .grafico{
+        margin-right: -11px;
+    }
 }
 
 
@@ -1089,6 +1121,17 @@ body {
     /* Team */
     .our-team .box .image .social-icon {
         width: 70%;
+    }
+    .img_carrossel{
+        display: initial !important;
+    }
+
+    .graphImg{
+        width: 450px;
+    }
+
+    .grafico{
+        margin-right: -11px;
     }
 }
 
